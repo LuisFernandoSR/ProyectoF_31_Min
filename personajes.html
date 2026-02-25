@@ -3,68 +3,84 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>31 Minutos - Personajes y HTML</title>
+    <title>31 Minutos</title>
     <link rel="icon" href="img/icono.jpg" type="image/jpg" />
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <header>
-        <h1>Fundamentos del Noticiero (y de HTML)</h1>
-        <p>Aprende cómo se construye este sitio mientras conoces al equipo.</p>
-        <nav>
-            <ul>
-                <li><a href="#tulio">Tulio (Elementos)</a></li>
-                <li><a href="#bodoque">Bodoque (Contenido)</a></li>
-                <li><a href="#juanin">Juanín (Contenedores)</a></li>
-                <li><a href="#contacto">Encuesta a Fans</a></li>
-            </ul>
-        </nav>
+      <h1>Personajes del Noticiero</h1>
+      <p>Aqui se presentaran datos sobre los personajes del noticiero.</p>
+      <nav>
+        <ul>
+          <li><a href="#tulio">Tulio</a></li>
+          <li><a href="#bodoque">Bodoque </a></li>
+          <li><a href="#juanin">Juanín </a></li>
+          <li><a href="#contacto">Encuesta a Fans</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section id="tulio">
-            <h2>Tulio Triviño: Anatomía de un Elemento</h2>
-            <p>Al igual que Tulio, un elemento HTML necesita una <strong>etiqueta de apertura</strong> (su ego), contenido y una etiqueta de cierre.</p>
-            <pre><code>&lt;h1&gt;¡Bienvenidos a 31 Minutos!&lt;/h1&gt;</code></pre>
-        </section>
+      <section id="tulio">
+        <h2>Tulio Triviño</h2>
+        <p>
+          Soy tan importante que tengo un rulex de oro bañado en super oro con incrutaciones de diamantes y engrenajes de plastigoma que solo yo puedo tener por ser me mejor conductor del <strong>mundo </strong> 
+     
+        </p>
+        <img src="img/tulio.jpg" alt="tulio triviño" width="300" />
+         <div class="tip">
+          Dato curioso sobre Tulio: Tulio es el conductor del noticiero y es conocido por tener una labadora para lavaros y es la segunda persona con mas corbatas de titirilquen.
+        <pre><code>&lt;h1&gt;¡Que agrego aqui juanin, voy a poner que soy el señor amable 2015!&lt;/h1&gt;</code></pre>
+      </section>
 
-        <section id="bodoque">
-            <h2>Juan Carlos Bodoque: Contenido y Semántica</h2>
-            <p>Bodoque prefiere los datos claros. Usamos etiquetas semánticas para que el mensaje no se pierda en el bosque.</p>
-            <div class="tip">
-                Dato Verde: Usar <code>&lt;section&gt;</code> ayuda a organizar tu código como Bodoque organiza sus apuestas.
-            </div>
-        </section>
+      <section id="bodoque">
+        <h2>Juan Carlos Bodoque: Contenido y Semántica</h2>
+        <p>
+          Bodoque prefiere los datos claros. Usamos etiquetas semánticas para
+          que el mensaje no se pierda en el bosque.
+        </p>
+        <div class="tip">
+          Dato Verde: Usar <code>&lt;section&gt;</code> ayuda a organizar tu
+          código como Bodoque organiza sus apuestas.
+        </div>
+      </section>
 
-        <section id="juanin">
-            <h2>Juanín Juan Harry: El Gran Contenedor</h2>
-            <p>Juanín se encarga de que todo esté en su lugar. En HTML, los <code>&lt;div&gt;</code> y <code>&lt;main&gt;</code> son los Juanín que agrupan todo el caos.</p>
-        </section>
-        <section id="contacto">
-            <h2>¿Quién es tu personaje favorito?</h2>
-            <form>
-                <label for="nombre">Tu nombre:</label>
-                <input type="text" id="nombre" name="nombre" required />
-                <br><br>
-                <label for="personaje">Personaje favorito:</label>
-                <select id="personaje" name="personaje">
-                    <option value="tulio">Tulio Triviño</option>
-                    <option value="bodoque">Juan Carlos Bodoque</option>
-                    <option value="juanin">Juanín</option>
-                    <option value="patana">Patana</option>
-                </select>
-                <br><br>
-                <label for="mensaje">¿Por qué?</label>
-                <textarea id="mensaje" name="mensaje"></textarea>
-                <br><br>
-                <input type="submit" value="Enviar al canal" />
-            </form>
-        </section>
+      <section id="juanin">
+        <h2>Juanín Juan Harry: El Gran Contenedor</h2>
+        <p>
+          Juanín se encarga de que todo esté en su lugar. En HTML, los
+          <code>&lt;div&gt;</code> y <code>&lt;main&gt;</code> son los Juanín
+          que agrupan todo el caos.
+        </p>
+      </section>
+      <section id="contacto">
+        <h2>¿Quién es tu personaje favorito?</h2>
+        <form>
+          <label for="nombre">Tu nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+          <br /><br />
+          <label for="personaje">Personaje favorito:</label>
+          <select id="personaje" name="personaje">
+            <option value="tulio">Tulio Triviño</option>
+            <option value="bodoque">Juan Carlos Bodoque</option>
+            <option value="juanin">Juanín</option>
+            <option value="patana">Patana</option>
+          </select>
+          <br /><br />
+          <label for="mensaje">¿Por qué?</label>
+          <textarea id="mensaje" name="mensaje"></textarea>
+          <br /><br />
+          <input type="submit" value="Enviar al canal" />
+        </form>
+      </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Mi Sitio Web de 31 Minutos. Hecho con amor en Titirilquén.</p>
-        <a href="index.html">Volver al inicio</a>
-    </footer>  
-</body>
+      <p>
+        &copy; 2026 Mi Sitio Web de 31 Minutos. Hecho con amor en Titirilquén.
+      </p>
+      <a href="index.html">Volver al inicio</a>
+    </footer>
+  </body>
 </html>
