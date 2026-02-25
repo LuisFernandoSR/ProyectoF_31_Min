@@ -3,8 +3,8 @@
 ¡Bienvenido! Este es mi proyecto final para el módulo de HTML. Se trata de una página web informativa y divertida sobre el noticiero más prestigioso de Titirilquén: **31 Minutos**.
 
 ## 🚀 Enlaces
-- **Sitio en vivo:** [https://tu-usuario.github.io/nombre-del-repo/](https://tu-usuario.github.io/nombre-del-repo/)
-- **Repositorio:** [https://github.com/tu-usuario/nombre-del-repo](https://github.com/tu-usuario/nombre-del-repo)
+- **Sitio en vivo:** https://luisfernandosr.github.io/ProyectoF_31_Min/ 
+- **Repositorio:** https://github.com/LuisFernandoSR/ProyectoF_31_Min.git
 
 ## 🛠️ Características
 - **Estructura Semántica:** Uso de etiquetas modernas de HTML5 para una mejor indexación y accesibilidad.
@@ -17,7 +17,7 @@
 
 ## 📦 Despliegue
 Para ver este proyecto localmente:
-1. Clona el repositorio: `git clone https://github.com/tu-usuario/nombre-del-repo.git`
+1. Clona el repositorio: `git clone https://github.com/LuisFernandoSR/ProyectoF_31_Min.git`
 2. Abre el archivo `index.html` en tu navegador.
 
 Para el despliegue en la nube, se utilizó **GitHub Pages** desde la rama principal (`main`).
